@@ -1,0 +1,74 @@
+.pokemonList {
+    margin: 20px;
+}
+
+
+.click {
+    color: rgb(97, 78, 78);
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    right: 10px;
+    transform: scaleY(1);
+    transition: transform 0.5s;
+
+}
+
+.rotate {
+    transform: scaleY(-1);
+    transition: transform 0.5s;
+}
+
+
+.click:hover {
+    background: palevioletred;
+    cursor: pointer;
+}
+
+
+.click,
+.links {
+    padding: 12px;
+    font-size: 1.2em;
+    border: none;
+
+    width: 200px;
+    color: rgb(97, 78, 78);
+    background-color: pink;
+    transition: 0.3s;
+    
+}
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    transform: scaleY(0);
+    transform-origin: top;
+    /*para as options começarem a aparecer logo debaixo do CLICK ME. se não puser isto, vão começar a aparecer mais abaixo*/
+    transition: 0.2s;
+    
+}
+
+
+.newList {
+    transform: scaleY(1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    transform-origin: top;
+    /*para as options começarem a aparecer logo debaixo do CLICK ME. se não puser isto, vão começar a aparecer mais abaixo*/
+    transition: 0.2s;
+
+}
+
+
+.links:hover {
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
