@@ -1,4 +1,4 @@
-![Demo Animation](../assets/project-4-copy.png?raw=true)
+![pookemon cards](../assets/project-4-copy.png?raw=true)
 
 # Getting Started with Create React App
 
